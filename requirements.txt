@@ -1,0 +1,42 @@
+# Core Dependencies
+flask==2.3.3
+flask-cors==4.0.0
+gunicorn==21.2.0
+
+# Machine Learning & NLP
+transformers==4.33.2
+sentence-transformers==2.2.2
+torch==2.0.1
+faiss-cpu==1.7.4
+numpy==1.24.3
+pandas==2.0.3
+
+# Text Processing
+nltk==3.8.1
+spacy==3.6.1
+
+# Database & Storage
+boto3==1.28.57
+pymongo==4.5.0
+
+# API & Validation
+pydantic==2.3.0
+marshmallow==3.20.1
+
+# Utilities
+python-dotenv==1.0.0
+requests==2.31.0
+tqdm==4.66.1
+
+# Testing
+pytest==7.4.2
+pytest-cov==4.1.0
+pytest-mock==3.11.1
+
+# Code Quality
+black==23.9.1
+flake8==6.1.0
+mypy==1.5.1
+
+# Monitoring
+prometheus-client==0.17.1
